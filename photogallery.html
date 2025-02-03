@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border: 4px solid #ddd;
+            border-radius: 20px;
+            transition: transform 0.4s, box-shadow 0.4s;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+            </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin: 20px 0;">Photo Gallery</h1>
+    <h2 style="text-align: center; margin: 20px 0; color: darkslategray;">Sports Cars</h2>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="https://th.bing.com/th/id/OIP.1l-FU23m2T2vfpB6ejA8gAHaEK?rs=1&pid=ImgDetMain" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://th.bing.com/th/id/R.ae71cdbd67caec040e1d32dfc98bdac8?rik=HHFBcxZZp1ZgmA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fFedz5XZ.jpg&ehk=m0rKD9ItMemZuyt0eM1b6gAOsi0NJnBlEuwqfRjOQ9I%3d&risl=&pid=ImgRaw&r=0" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="https://wallpapercave.com/wp/wp5156570.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="https://wallpapercave.com/wp/Tpq7EOh.jpg" alt="Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="https://th.bing.com/th/id/OIP.rjLqjKEQaAEInCGru-nkSgHaE8?rs=1&pid=ImgDetMain" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN9amwjcdph5acoFQZQghYiBBR_j1Pk2PAWw&salt" alt="Image 6">
+        </div>
+        <div class="gallery-item">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Lexus/ES/9399/1665652746848/front-left-side-47.jpg?impolicy=resize&imwidth=480alt" alt="Image 7">
+        </div>
+        <div class="gallery-item">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960" alt="Image 8">
+        </div>
+        <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTceajNiuYiTJbwvVkIXEfyO_hndxVt3s4spQ&sjpg&crop=4560,2565,x790,y784,safe&width=960" alt="Image 9">
+        </div>
+        <div class="gallery-item">
+            <img src="https://car-images.bauersecure.com/wp-images/3679/1752x1168/best_luxury_car.jpg?mode=max&quality=90&scale=down" alt="Image 10">
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.opumo.com/wordpress/wp-content/uploads/2022/06/opumo-rolls.jpg" alt="Image 11">
+        </div>
+        <div class="gallery-item">
+            <img src="https://c.wallhere.com/photos/7c/57/Lamborghini_car_car_show_photography_black_cars_luxury_cars-1155645.jpg!d" alt="Image 12">
+        </div>
+        <div class="gallery-item">
+            <img src="https://i.pinimg.com/originals/53/64/9f/53649f6b4d70f7e2d2e5122e2d41322b.jpg" alt="Image 13">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.eliterent.com/wp-content/uploads/2021/07/AMG_GT_Night_Dark_NO_Plate-1-scaled.jpg" alt="Image 14">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.slashgear.com/img/gallery/10-most-luxurious-mercedes-benz-cars-ever-made-ranked/l-intro-1686086979.jpg" alt="Image 15">
+        </div>
+    </div>
+</body>
+</html>
